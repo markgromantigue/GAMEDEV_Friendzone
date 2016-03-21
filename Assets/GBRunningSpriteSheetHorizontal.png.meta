@@ -1,0 +1,569 @@
+fileFormatVersion: 2
+guid: 72a4cab3c3e2e0b45888c1f8b485bf93
+timeCreated: 1458193736
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GBRunningSpriteSheetHorizontal_0
+    21300002: GBRunningSpriteSheetHorizontal_1
+    21300004: GBRunningSpriteSheetHorizontal_2
+    21300006: GBRunningSpriteSheetHorizontal_3
+    21300008: GBRunningSpriteSheetHorizontal_4
+    21300010: GBRunningSpriteSheetHorizontal_5
+    21300012: GBRunningSpriteSheetHorizontal_6
+    21300014: GBRunningSpriteSheetHorizontal_7
+    21300016: GBRunningSpriteSheetHorizontal_8
+    21300018: GBRunningSpriteSheetHorizontal_9
+    21300020: GBRunningSpriteSheetHorizontal_10
+    21300022: GBRunningSpriteSheetHorizontal_11
+    21300024: GBRunningSpriteSheetHorizontal_12
+    21300026: GBRunningSpriteSheetHorizontal_13
+    21300028: GBRunningSpriteSheetHorizontal_14
+    21300030: GBRunningSpriteSheetHorizontal_15
+    21300032: GBRunningSpriteSheetHorizontal_16
+    21300034: GBRunningSpriteSheetHorizontal_17
+    21300036: GBRunningSpriteSheetHorizontal_18
+    21300038: GBRunningSpriteSheetHorizontal_19
+    21300040: GBRunningSpriteSheetHorizontal_20
+    21300042: GBRunningSpriteSheetHorizontal_21
+    21300044: GBRunningSpriteSheetHorizontal_22
+    21300046: GBRunningSpriteSheetHorizontal_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GBRunningSpriteSheetHorizontal_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 56
+        width: 347
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.398962, y: 25.059586}
+        - {x: 19.398962, y: 22.059586}
+        - {x: 19.398962, y: 23.059586}
+        - {x: 23.398962, y: 31.059586}
+        - {x: 24.398962, y: 37.059586}
+        - {x: 23.398962, y: 46.059586}
+        - {x: 22.398962, y: 48.059586}
+        - {x: 2.398962, y: 48.059586}
+        - {x: -20.601038, y: 30.059586}
+        - {x: -26.601038, y: -20.940414}
+        - {x: -26.601038, y: -46.940414}
+        - {x: 1.398962, y: -46.940414}
+        - {x: 27.398962, y: -26.940414}
+        - {x: 27.398962, y: 24.059586}
+        - {x: 25.398962, y: 27.059586}
+    - name: GBRunningSpriteSheetHorizontal_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 56
+        width: 365
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.909325, y: 28.059586}
+        - {x: 21.909325, y: 27.059586}
+        - {x: 26.909325, y: 37.059586}
+        - {x: 25.909325, y: 47.059586}
+        - {x: 24.909325, y: 49.059586}
+        - {x: -5.0906754, y: 49.059586}
+        - {x: -28.090675, y: 9.059586}
+        - {x: -28.090675, y: -45.940414}
+        - {x: -23.090675, y: -47.940414}
+        - {x: 17.909325, y: -47.940414}
+        - {x: 28.909325, y: -24.940414}
+        - {x: 28.909325, y: 26.059586}
+        - {x: 26.909325, y: 27.059586}
+    - name: GBRunningSpriteSheetHorizontal_2
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 56
+        width: 386
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.18393, y: -45.440414}
+        - {x: 30.18393, y: -26.440414}
+        - {x: 30.18393, y: 49.559586}
+        - {x: 5.1839294, y: 49.559586}
+        - {x: -14.816071, y: 34.559586}
+        - {x: -29.81607, y: -26.440414}
+        - {x: -29.81607, y: -44.440414}
+        - {x: -24.81607, y: -48.440414}
+        - {x: -12.816071, y: -48.440414}
+        - {x: -9.816071, y: -43.440414}
+        - {x: 5.1839294, y: -48.440414}
+        - {x: 13.183929, y: -48.440414}
+    - name: GBRunningSpriteSheetHorizontal_3
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 56
+        width: 405
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.388611, y: 50.559586}
+        - {x: -31.38861, y: 11.559586}
+        - {x: -31.38861, y: -49.440414}
+        - {x: 31.61139, y: -49.440414}
+        - {x: 31.61139, y: 50.559586}
+    - name: GBRunningSpriteSheetHorizontal_4
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 50
+        width: 411
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.525879, y: 51.142487}
+        - {x: 9.525879, y: 50.142487}
+        - {x: -10.474121, y: 41.142487}
+        - {x: -21.474121, y: 7.1424866}
+        - {x: -31.474121, y: -23.857513}
+        - {x: -31.474121, y: -46.857513}
+        - {x: -26.474121, y: -48.857513}
+        - {x: -17.474121, y: -46.857513}
+        - {x: -4.474121, y: -49.857513}
+        - {x: 31.525879, y: -49.857513}
+        - {x: 31.525879, y: 41.142487}
+        - {x: 25.525879, y: 51.142487}
+    - name: GBRunningSpriteSheetHorizontal_5
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 43
+        width: 418
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.559601, y: 51.57254}
+        - {x: -31.5596, y: 10.57254}
+        - {x: -31.5596, y: -41.42746}
+        - {x: -22.5596, y: -49.42746}
+        - {x: -17.5596, y: -50.42746}
+        - {x: 33.4404, y: -50.42746}
+        - {x: 33.4404, y: 47.57254}
+        - {x: 29.4404, y: 51.57254}
+    - name: GBRunningSpriteSheetHorizontal_6
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 36
+        width: 418
+        height: 661
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.728027, y: 51.50259}
+        - {x: -31.728027, y: 20.50259}
+        - {x: -31.728027, y: -50.49741}
+        - {x: 32.271973, y: -50.49741}
+        - {x: 33.271973, y: -48.49741}
+        - {x: 33.271973, y: 51.50259}
+    - name: GBRunningSpriteSheetHorizontal_7
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 36
+        width: 418
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.186523, y: 50.50259}
+        - {x: -3.8134766, y: 50.50259}
+        - {x: -31.813477, y: 11.50259}
+        - {x: -31.813477, y: -49.49741}
+        - {x: 30.186523, y: -49.49741}
+        - {x: 28.186523, y: -35.49741}
+        - {x: 33.186523, y: -13.49741}
+    - name: GBRunningSpriteSheetHorizontal_8
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 36
+        width: 385
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5078125, y: 50.00259}
+        - {x: -29.507812, y: 19.00259}
+        - {x: -29.507812, y: -34.99741}
+        - {x: -23.507812, y: -38.99741}
+        - {x: -4.5078125, y: -48.99741}
+        - {x: 27.492188, y: -48.99741}
+        - {x: 30.492188, y: -20.99741}
+        - {x: 30.492188, y: 30.00259}
+        - {x: 23.492188, y: 50.00259}
+    - name: GBRunningSpriteSheetHorizontal_9
+      rect:
+        serializedVersion: 2
+        x: 5112
+        y: 36
+        width: 333
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.367859, y: 49.00259}
+        - {x: 22.367859, y: 50.00259}
+        - {x: 6.367859, y: 50.00259}
+        - {x: -16.632141, y: 27.00259}
+        - {x: -25.632141, y: -7.99741}
+        - {x: -25.632141, y: -30.99741}
+        - {x: -7.632141, y: -48.99741}
+        - {x: 12.367859, y: -48.99741}
+        - {x: 14.367859, y: -47.99741}
+        - {x: 18.367859, y: -38.99741}
+        - {x: 26.367859, y: -21.99741}
+        - {x: 26.367859, y: 35.00259}
+    - name: GBRunningSpriteSheetHorizontal_10
+      rect:
+        serializedVersion: 2
+        x: 5693
+        y: 36
+        width: 281
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.173523, y: 50.00259}
+        - {x: 4.173523, y: 49.00259}
+        - {x: -11.826477, y: 14.00259}
+        - {x: -21.826477, y: -19.99741}
+        - {x: -21.826477, y: -29.99741}
+        - {x: -18.826477, y: -30.99741}
+        - {x: -15.826477, y: -30.99741}
+        - {x: -15.826477, y: -45.99741}
+        - {x: -9.826477, y: -48.99741}
+        - {x: 16.173523, y: -48.99741}
+        - {x: 22.173523, y: -29.99741}
+        - {x: 22.173523, y: 47.00259}
+        - {x: 21.173523, y: 50.00259}
+    - name: GBRunningSpriteSheetHorizontal_11
+      rect:
+        serializedVersion: 2
+        x: 6268
+        y: 36
+        width: 255
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.0621338, y: 50.50259}
+        - {x: -13.937866, y: 28.50259}
+        - {x: -19.937866, y: -12.49741}
+        - {x: -19.937866, y: -49.49741}
+        - {x: 12.062134, y: -49.49741}
+        - {x: 20.062134, y: -43.49741}
+        - {x: 20.062134, y: 50.50259}
+    - name: GBRunningSpriteSheetHorizontal_12
+      rect:
+        serializedVersion: 2
+        x: 6785
+        y: 36
+        width: 303
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5854492, y: 51.00259}
+        - {x: -23.41455, y: 16.00259}
+        - {x: -23.41455, y: -49.99741}
+        - {x: 21.58545, y: -49.99741}
+        - {x: 23.58545, y: -42.99741}
+        - {x: 23.58545, y: 51.00259}
+    - name: GBRunningSpriteSheetHorizontal_13
+      rect:
+        serializedVersion: 2
+        x: 7313
+        y: 36
+        width: 334
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.790161, y: 23.00259}
+        - {x: 21.790161, y: 22.00259}
+        - {x: 21.790161, y: 20.00259}
+        - {x: 22.790161, y: 24.00259}
+        - {x: 26.790161, y: 34.00259}
+        - {x: 26.790161, y: 51.00259}
+        - {x: 24.790161, y: 52.00259}
+        - {x: 10.790161, y: 52.00259}
+        - {x: -18.209839, y: -11.99741}
+        - {x: -24.209839, y: -26.99741}
+        - {x: -24.209839, y: -48.99741}
+        - {x: -18.209839, y: -50.99741}
+        - {x: 1.7901611, y: -50.99741}
+        - {x: 14.790161, y: -47.99741}
+        - {x: 26.790161, y: -21.99741}
+        - {x: 26.790161, y: 24.00259}
+    - name: GBRunningSpriteSheetHorizontal_14
+      rect:
+        serializedVersion: 2
+        x: 7849
+        y: 36
+        width: 366
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.21753, y: -42.49741}
+        - {x: 29.21753, y: -28.49741}
+        - {x: 29.21753, y: 52.50259}
+        - {x: 1.2175293, y: 52.50259}
+        - {x: -26.78247, y: 0.5025902}
+        - {x: -26.78247, y: -50.49741}
+        - {x: -25.78247, y: -51.49741}
+        - {x: -11.782471, y: -51.49741}
+        - {x: -8.782471, y: -48.49741}
+        - {x: -8.782471, y: -47.49741}
+        - {x: 16.21753, y: -46.49741}
+    - name: GBRunningSpriteSheetHorizontal_15
+      rect:
+        serializedVersion: 2
+        x: 8398
+        y: 36
+        width: 372
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.63208, y: 52.50259}
+        - {x: 0.6320801, y: 33.50259}
+        - {x: -27.36792, y: -21.49741}
+        - {x: -27.36792, y: -51.49741}
+        - {x: 29.63208, y: -51.49741}
+        - {x: 29.63208, y: 52.50259}
+    - name: GBRunningSpriteSheetHorizontal_16
+      rect:
+        serializedVersion: 2
+        x: 8940
+        y: 56
+        width: 412
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5234375, y: 51.059586}
+        - {x: -30.523438, y: 0.05958557}
+        - {x: -30.523438, y: -49.940414}
+        - {x: 32.476562, y: -49.940414}
+        - {x: 32.476562, y: 50.059586}
+        - {x: 31.476562, y: 51.059586}
+    - name: GBRunningSpriteSheetHorizontal_17
+      rect:
+        serializedVersion: 2
+        x: 9489
+        y: 70
+        width: 437
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.391113, y: 43.699482}
+        - {x: 23.391113, y: 49.699482}
+        - {x: 1.3911133, y: 49.699482}
+        - {x: -22.608887, y: -2.300518}
+        - {x: -32.608887, y: -27.300518}
+        - {x: -32.608887, y: -48.300518}
+        - {x: 34.391113, y: -48.300518}
+        - {x: 34.391113, y: -32.300518}
+        - {x: 29.391113, y: -14.300518}
+        - {x: 21.391113, y: -3.300518}
+        - {x: 33.391113, y: 20.699482}
+    - name: GBRunningSpriteSheetHorizontal_18
+      rect:
+        serializedVersion: 2
+        x: 10045
+        y: 49
+        width: 437
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.37561, y: 49.489635}
+        - {x: 27.37561, y: 50.489635}
+        - {x: 0.37561035, y: 50.489635}
+        - {x: -32.62439, y: -6.5103645}
+        - {x: -32.62439, y: -40.510365}
+        - {x: -29.62439, y: -43.510365}
+        - {x: -15.62439, y: -49.510365}
+        - {x: 34.37561, y: -49.510365}
+        - {x: 34.37561, y: -32.510365}
+        - {x: 29.37561, y: -12.510365}
+        - {x: 34.37561, y: 7.4896355}
+        - {x: 34.37561, y: 19.489635}
+    - name: GBRunningSpriteSheetHorizontal_19
+      rect:
+        serializedVersion: 2
+        x: 10619
+        y: 49
+        width: 392
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.388672, y: 49.989635}
+        - {x: -29.388672, y: 3.9896355}
+        - {x: -29.388672, y: -37.010365}
+        - {x: 7.611328, y: -48.010365}
+        - {x: 11.611328, y: -49.010365}
+        - {x: 30.611328, y: -49.010365}
+        - {x: 30.611328, y: 41.989635}
+        - {x: 25.611328, y: 49.989635}
+    - name: GBRunningSpriteSheetHorizontal_20
+      rect:
+        serializedVersion: 2
+        x: 11194
+        y: 49
+        width: 339
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.499878, y: -36.510365}
+        - {x: 27.499878, y: 49.489635}
+        - {x: 2.499878, y: 49.489635}
+        - {x: -23.500122, y: 13.489635}
+        - {x: -23.500122, y: -37.510365}
+        - {x: 9.499878, y: -48.510365}
+        - {x: 27.499878, y: -48.510365}
+        - {x: 27.499878, y: -41.510365}
+        - {x: 26.499878, y: -40.510365}
+    - name: GBRunningSpriteSheetHorizontal_21
+      rect:
+        serializedVersion: 2
+        x: 11776
+        y: 49
+        width: 306
+        height: 628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.041504, y: 48.989635}
+        - {x: -21.041504, y: -10.010365}
+        - {x: -21.041504, y: -48.010365}
+        - {x: 24.958496, y: -48.010365}
+        - {x: 24.958496, y: 48.989635}
+    - name: GBRunningSpriteSheetHorizontal_22
+      rect:
+        serializedVersion: 2
+        x: 12376
+        y: 43
+        width: 275
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.168335, y: 49.57254}
+        - {x: -14.831665, y: 31.57254}
+        - {x: -18.831665, y: 19.57254}
+        - {x: -18.831665, y: -48.42746}
+        - {x: 16.168335, y: -48.42746}
+        - {x: 21.168335, y: -37.42746}
+        - {x: 22.168335, y: -32.42746}
+        - {x: 22.168335, y: 49.57254}
+    - name: GBRunningSpriteSheetHorizontal_23
+      rect:
+        serializedVersion: 2
+        x: 12964
+        y: 49
+        width: 261
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.9560547, y: 49.489635}
+        - {x: -17.956055, y: -17.510365}
+        - {x: -17.956055, y: -48.510365}
+        - {x: 3.0439453, y: -48.510365}
+        - {x: 5.0439453, y: -44.510365}
+        - {x: 21.043945, y: -34.510365}
+        - {x: 21.043945, y: 49.489635}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
