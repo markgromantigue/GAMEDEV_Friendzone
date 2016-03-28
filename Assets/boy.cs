@@ -25,9 +25,8 @@ public class boy : MonoBehaviour {
         charPos = transform.position;
 		if (timer == 100) {
 			duck = false;
+            animator.SetBool("GBSliding", false);
 			timer = 0;
-			duc.y = duc.y + 0.5f;
-			transform.localScale = duc;
 		} else if (timer != 0 && timer < 100) {
 			timer++;
 		}
@@ -45,9 +44,8 @@ public class boy : MonoBehaviour {
 
 		if (Input.GetKeyDown("down") && !duck) {
 			duck = true;
-			duc.y = duc.y - 0.5f;
+            animator.SetBool("GBSliding", true);
 			timer++;
-			transform.localScale = duc;
 		}
 	
 	}
