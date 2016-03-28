@@ -26,7 +26,7 @@ public class boy : MonoBehaviour {
 		if (timer == 100) {
 			duck = false;
 			timer = 0;
-			duc.y = 1;
+			duc.y = duc.y + 0.5f;
 			transform.localScale = duc;
 		} else if (timer != 0 && timer < 100) {
 			timer++;

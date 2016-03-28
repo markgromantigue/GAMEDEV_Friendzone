@@ -6,7 +6,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< HEAD
     <ProjectGuid>{3101D93F-AEF8-A427-849E-5FF205A19ADF}</ProjectGuid>
+=======
+    <ProjectGuid>{95E5F03A-8166-FB79-8478-EE02F7FD00A9}</ProjectGuid>
+>>>>>>> origin/master
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,6 +53,8 @@
      <Compile Include="Assets\boy.cs" />
      <Compile Include="Assets\scroller.cs" />
      <Compile Include="Assets\scroller2.cs" />
+     <Compile Include="Assets\scroller3.cs" />
+     <Compile Include="Assets\spawn.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
