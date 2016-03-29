@@ -1,108 +1,31 @@
-/*
- * Copyright (c) 2015 Razeware LLC
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
-
 using UnityEngine;
 using System.Collections;
 
-public class BombEmitter : MonoBehaviour {
-    public GameObject bombPrefab;
+public class Spawner : MonoBehaviour {
 
-    // Use this for initialization
-    void Start() {
-        StartCoroutine(DropBombs());
-    }
+	public bool devMode;
 
-    IEnumerator DropBombs() {
-        while (Application.isPlaying)
-        {
-            CreateBomb();
-            yield return new WaitForSeconds(2);
-        }
-    }
+	public Wave[] waves;
+	public Enemy enemy;
 
-    void CreateBomb() {
-		if (bombPrefab != null)
-		{
-			Instantiate(bombPrefab, transform.position, bombPrefab.transform.rotation);
-		}
-    }
+	LivingEntity playerEntity;
+	Transform playerT;
 
-    // Update is called once per frame
-    void Update() {
+	Wave currentWave;
+	int currentWaveNumber;
 
-    }
-}
+	int enemiesRemainingToSpawn;
+	int enemiesRemainingAlive;
+	float nextSpawnTime;
 
+	MapGenerator map;
 
-/*
- * Copyright (c) 2015 Razeware LLC
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
+	float timeBetweenCampingChecks = 2;
+	float campThresholdDistance = 1.5f;
+	float nextCampCheckTime;
+	Vector3 campPositionOld;
+	bool isCamping;
 
-using UnityEngine;
-using System.Collections;
+	bool isDisabled;
 
-public class BombEmitter : MonoBehaviour {
-    public GameObject bombPrefab;
-
-    // Use this for initialization
-    void Start() {
-        StartCoroutine(DropBombs());
-    }
-
-    IEnumerator DropBombs() {
-        while (Application.isPlaying)
-        {
-            CreateBomb();
-            yield return new WaitForSeconds(2);
-        }
-    }
-
-    void CreateBomb() {
-		if (bombPrefab != null)
-		{
-			Instantiate(bombPrefab, transform.position, bombPrefab.transform.rotation);
-		}
-    }
-
-    // Update is called once per frame
-    void Update() {
-
-    }
-}
+	public event System.Action<int> OnNewWave;
