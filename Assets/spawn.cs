@@ -6,6 +6,7 @@ public class spawn : MonoBehaviour {
 	public GameObject spawner = null;
 	public GameObject spawner2 = null;
 	public GameObject spawner3 = null;
+    public GameObject spawner4 = null;
 	public int fairness;
 
 	// Use this for initialization
@@ -22,10 +23,10 @@ public class spawn : MonoBehaviour {
 			fairness = fairness + 1;
 		}
 		if (rand >= 0.995 && fairness == 0) {
-			GameObject spawning = Instantiate (spawner, new Vector2 (23f, 2f), Quaternion.identity) as GameObject;
+			GameObject spawning = Instantiate (spawner4, new Vector2 (23f, 2f), Quaternion.identity) as GameObject;
 			fairness = 1;
 		} else if (rand >= 0.99 && fairness == 0) {
-			GameObject spawning = Instantiate (spawner, new Vector2 (23f, -5f), Quaternion.identity) as GameObject;
+			GameObject spawning = Instantiate (spawner, new Vector2 (23f, -3f), Quaternion.identity) as GameObject;
 			fairness = 1;
 		} else if (rand >= 0.989 && rand < 0.99) {
 			GameObject spawning = Instantiate (spawner2, new Vector2 (23f, (float)(11*Random.value - 4)), Quaternion.identity) as GameObject;
