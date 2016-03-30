@@ -6,10 +6,10 @@ public class blackhole : MonoBehaviour {
     public float speed = 10f;
     public float scaleStep = 0;
 
-    private SphereCollider myCollider;
+    private CircleCollider2D myCollider;
 
     void Start() {
-        myCollider = transform.GetComponent<SphereCollider>();
+        myCollider = transform.GetComponent<CircleCollider2D>();
     }
 	// Update is called once per frame
 	void Update () {
@@ -18,6 +18,6 @@ public class blackhole : MonoBehaviour {
         scaleStep += 0.001f;
         transform.localScale = new Vector2(scaleStep, scaleStep);
 
-        myCollider.radius += 0.001f;
+        myCollider.radius += 0.00001f;
 	}
 }
